@@ -34,6 +34,13 @@ body {
             
         
         }    
+        p::selection {
+            color: $rouge-chaud;
+        }
+        
+        span::selection {
+            color: $noir;
+        }
         p {
             font-weight: 400;
             font-size: 32px;
