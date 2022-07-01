@@ -1,0 +1,329 @@
+@import './_reset.scss';
+@import './_colors.scss';
+@import './_header.scss';
+
+body {
+    display: flex;
+    height: 720px;
+    font-family: 'Permanent Marker';
+
+}
+
+.frame_on {
+    width: 768px;
+    height: 720px ;
+    z-index: 1;
+    
+
+    section {
+        position: relative;
+
+
+        .about {
+            width: 149px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $rouge-chaud;
+            
+            h2 {
+                font-size: 64px; 
+                margin-top: 75px;   
+            }
+            
+        
+        }    
+        p {
+            font-weight: 400;
+            font-size: 32px;
+            color : $noir;
+
+
+            span {
+                color : $rouge-chaud;
+            }
+        
+        }
+    
+            .items_on {
+                width : 409px;
+                height: 330px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 0 0 0 34px;    
+        }
+        .icone-ken {
+            width : 236px;
+            height: 558px;
+            position: absolute;
+            left: 65%;
+            top: 7%;
+            // transform: translate(220%,-55%)
+        }
+        .next-btn {
+            width : 409px;
+            height: 146px;
+            display: flex;
+            align-items: flex-end;
+            margin: 10px 0 0 34px; 
+            justify-content: space-around;
+            z-index: 1;
+           
+          
+                
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 13px;
+                height: 35px;
+                border: 1px solid $rouge-chaud;
+                border-radius: 6px;
+                width: 50px;
+                height: 50px;
+                background: $rouge-chaud;
+
+                &:nth-child(1){
+                    background: $blanc;
+                    a {
+                        color: $rouge-chaud;
+                    }
+                }
+                    
+
+                a {
+                    text-decoration: none;
+                    color: $blanc;
+                }
+            }
+        }
+        .illustrator {
+            position: absolute;
+            width: 404.3px; 
+            height: 541px;
+            top: 30%;
+            z-index: -2;
+            
+        }
+        .line {
+            border : 1px solid $rouge-chaud;
+            position: relative;
+            bottom: 24px;
+            z-index: -5;
+            width: 350px;
+            margin: 0px 0 0 60px;
+            
+        }
+
+    }
+
+}
+
+
+.frame_two {
+    width: 579px;
+    transform: translateX(-6%);
+    z-index: -1;
+    
+   
+
+    .bloc_on {
+        padding-top: 10px;
+        background: $rouge-chaud;
+        height: 223px;
+
+            h2 {
+                margin: 35px 0 0 70px;
+                width: 248px;
+                height: 104px;
+                font-weight: 400;
+                font-size: 36px;
+                color: $blanc;
+                
+                
+                }
+        
+        
+        }
+        
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;  
+        position: relative; 
+        
+        
+        }
+            
+    .bouton {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            margin-top: 26px;   
+            width: 50%;
+            height: 33.66px;
+            z-index: 2;
+            
+
+                .item-on {
+                    width: 33.66px;
+                    height: 33.66px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: $rouge-chaud;
+                    border: 1px solid $blanc;
+                    border-radius: 6px;
+
+                    
+
+                    a {
+                        text-decoration: none;
+                        color: $blanc;
+                        
+                        }
+                    
+                    }
+                .item-btn {
+                        width: 33.66px;
+                        height: 33.66px;
+                        background: $blanc;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 6px;
+
+
+
+                        a {
+                            
+                            color: $rouge-chaud;
+                            text-decoration: none;
+                            
+                            }
+                    
+                    }
+        }
+        .line {
+            position: absolute;
+            border: 1px solid $blanc;
+            width: 40%;
+            top: 43px;
+            left: 95px;
+            z-index: 1;
+            
+            }
+        .search {
+            width: 51px;    
+            height: 41px;
+            border-radius: 20.5px;
+            background: $mini-rouge;    
+            display: flex;
+            justify-content: center;
+            align-content: center; 
+            position: relative;
+            margin-top: 22px;
+
+                    svg {
+                        position: relative;
+                        top: 12px;
+                        }
+            
+            
+            }
+            
+        .final-bloc {
+            display: flex;
+            justify-content: space-around;
+            
+            background: $rouge-chaud-chaud;
+            height: 490px;
+
+                .target-content {
+                        margin-top: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        width: 230px;
+                        height: 100px;
+                        
+                        .item {
+                            text-align: center;
+                            font-size: 24px;
+                            }
+
+
+                              h3 {
+                                    width: 105px;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: $blanc;
+                                    
+                                    width: 100%;
+                                    
+                                    
+                                    }
+                                .lion {
+                                    font-size: 16px;
+                                    margin: 0 0 0 35px;
+                                    
+                                    }
+
+                        .items {
+                            margin: 10px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            
+                            
+                            
+                            }
+                        
+                    }
+                  
+                        
+              
+            }
+                
+      
+
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 310px;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Permanent Marker';
+
+       .item {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+        }
+        
+        .main-svg {
+
+                h3 {
+                    margin-top: 10px;
+                    color: $blanc;
+                    font-weight: 400;
+                    font-size: 16px;
+                    
+                    }
+            }
+        .main-item {
+                h3 {
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 35px;
+                    color: $blanc;
+                    
+                    }
+            }
+    }
